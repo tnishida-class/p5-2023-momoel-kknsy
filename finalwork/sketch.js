@@ -43,7 +43,7 @@ function draw(){
   fill(255,0,0)//文字の色を指定
   textSize(28);//テキストサイズの指定
   textAlign(CENTER, CENTER);//テキストの配置を中央に指定
-  text('Nishida',cx, cy);//TJというテキストの描画
+  text('Nishida',cx, cy);//Nishidaというテキストの描画
   drawCheckeredCircle(cx, cy, 110, 90, 4);
   drawCheckeredCircle(cx, cy, 150, 90, 3)
 }
