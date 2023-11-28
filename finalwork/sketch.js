@@ -41,9 +41,9 @@ function draw(){
   ellipse(cx, cy, 120, 500);//楕円を描画
 
   fill(255,0,0)//文字の色を指定
-  textSize(50);//テキストサイズの指定
+  textSize(28);//テキストサイズの指定
   textAlign(CENTER, CENTER);//テキストの配置を中央に指定
-  text('西田',cx, cy);//TJというテキストの描画
+  text('Nishida',cx, cy);//TJというテキストの描画
   drawCheckeredCircle(cx, cy, 110, 90, 4);
   drawCheckeredCircle(cx, cy, 150, 90, 3)
 }
