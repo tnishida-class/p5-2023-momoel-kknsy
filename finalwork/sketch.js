@@ -2,15 +2,12 @@
 
 function setup(){//プログラムの初期設定
   createCanvas(windowWidth,windowHeight);//ウィンドウの幅と高さに合わせたキャンバスの作成
-  fill(0);//壁画時のデフォルトの塗りつぶし色を黑に設定
+  fill(0);//描画時のデフォルトの塗りつぶし色を黑に設定
   for(let i=0 ; i < 20; i++)//iが0から19までの20回繰り返すループ
   for(let j=0 ; j < 42; j++)//jが0から41までの42回繰り返すループ
 Polygon(10,i*70,j*40,40);//Polygon関数。多角形を描画。10＝多角形の辺の数。
 }
 
-function draw(){
-
-}
 
 function Polygon(n, cx,cy, r){//多角形描画。辺の数＝n、中心座標（cx, cy）、半径r
   beginShape();//多角形の描画開始
@@ -46,7 +43,7 @@ function draw(){
   fill(255,0,0)//文字の色を指定
   textSize(50);//テキストサイズの指定
   textAlign(CENTER, CENTER);//テキストの配置を中央に指定
-  text('TJ',cx, cy);//TJというテキストの描画
+  text('西田',cx, cy);//TJというテキストの描画
   drawCheckeredCircle(cx, cy, 110, 90, 4);
   drawCheckeredCircle(cx, cy, 150, 90, 3)
 }
